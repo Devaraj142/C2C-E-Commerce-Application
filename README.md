@@ -1,6 +1,7 @@
 - 👋 Hi, I’m @Devaraj142
 - 👀 I’m interested in Web-Development
-- 🌱 I’m currently learning Back-end Development
+- 🌱 I was learned Back-end Development
+- 🌱 I currently learning FullStack Development and DSA
 - 💞️ I’m looking to collaborate on Guiding and Teaching Engineeres
 - 📫 How to reach me devmonty2002@gmail.com (or) murugandevaraj2002@gmail.com
 
