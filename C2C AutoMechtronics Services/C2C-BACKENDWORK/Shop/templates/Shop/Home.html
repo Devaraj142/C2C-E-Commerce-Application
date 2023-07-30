@@ -1,0 +1,16 @@
+{% extends "Shop/layout.html" %}
+{% block body %}
+    <form action="{% url 'Shop:sell' %}">
+        <button>Sell</button>
+    </form>
+    <a href="{% url 'Shop:service' %}">Service</a>
+    {% for item in object %}
+        <p>
+            <img src="{{ item.image.url }}" width="450">
+            <a href="{% url 'Shop:single' %}">Product Name: {{ item.product }}</a>  Owner Name: {{ item.name }} Rs: {{ item.price }}
+            Contact: {{ item.mobilenum }}
+        
+        </p>
+
+    {% endfor %}
+{% endblock %}

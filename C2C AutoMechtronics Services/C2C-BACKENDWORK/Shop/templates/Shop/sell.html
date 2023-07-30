@@ -1,0 +1,16 @@
+{% extends "Shop/layout.html" %}
+{% block body %}
+    <h1>SELL PAGE</h1>
+    <a href="{% url 'Shop:home' %}">Home</a>
+    <form method="POST" action="{% url 'Shop:home' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label>Product Name</label>
+        <input type="text" placeholder="Product" name="product">
+        <input type="text" placeholder="owner" name="name">
+        <input type="file" placeholder="Productimage" name="image">
+        <input type="date" placeholder="cost" name="price">
+        <input type="text" placeholder="Ph.No" name="mobilenum">
+      
+        <input type="submit">
+    </form>
+{% endblock %}
